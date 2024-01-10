@@ -7,6 +7,9 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 ```` r
 sum(1+1)
+a <- a %>% mutate(car = car * 100)
+
+cyl <- function(x) { is.na(x) +1 }
 ````
 
 
